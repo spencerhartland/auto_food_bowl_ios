@@ -37,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0039450B28F3C5FF00733FF9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		00440F0428F34B0C0000CF53 /* FBQuickControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBQuickControls.swift; sourceTree = "<group>"; };
 		0081AAE228F3544C0028A22E /* FBList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBList.swift; sourceTree = "<group>"; };
 		0081AAE428F36D510028A22E /* FBLEDColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLEDColorPicker.swift; sourceTree = "<group>"; };
@@ -144,6 +145,7 @@
 		00D5780C28F13F230072B45A = {
 			isa = PBXGroup;
 			children = (
+				0039450B28F3C5FF00733FF9 /* README.md */,
 				00D5781728F13F230072B45A /* foodbowl */,
 				00D5781628F13F230072B45A /* Products */,
 			);
