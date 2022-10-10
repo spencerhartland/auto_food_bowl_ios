@@ -7,18 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00440F0528F34B0C0000CF53 /* FBQuickControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00440F0428F34B0C0000CF53 /* FBQuickControls.swift */; };
+		0081AAE328F3544C0028A22E /* FBList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081AAE228F3544C0028A22E /* FBList.swift */; };
+		0081AAE528F36D510028A22E /* FBLEDColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081AAE428F36D510028A22E /* FBLEDColorPicker.swift */; };
+		0081AAE728F39E200028A22E /* FBSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081AAE628F39E200028A22E /* FBSettings.swift */; };
+		009BFF6E28F2271F009786FC /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BFF6D28F2271F009786FC /* CustomTextFieldStyle.swift */; };
+		00D481DC28F23F3D00E09231 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481DB28F23F3D00E09231 /* ControlView.swift */; };
+		00D481E328F250E100E09231 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481E228F250E100E09231 /* Fonts.swift */; };
+		00D481E528F2512500E09231 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481E428F2512500E09231 /* Constants.swift */; };
+		00D481E728F2513900E09231 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481E628F2513900E09231 /* Colors.swift */; };
+		00D481E928F2549A00E09231 /* FBConnectionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481E828F2549A00E09231 /* FBConnectionStatus.swift */; };
+		00D481EC28F2643200E09231 /* FBRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481EB28F2643200E09231 /* FBRequestHandler.swift */; };
+		00D481EE28F272EE00E09231 /* Setting-ChangePetName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481ED28F272EE00E09231 /* Setting-ChangePetName.swift */; };
+		00D481F228F28E7A00E09231 /* FBControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481F128F28E7A00E09231 /* FBControl.swift */; };
+		00D481F428F28EA900E09231 /* FBLargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481F328F28EA900E09231 /* FBLargeButton.swift */; };
+		00D481F628F28EE800E09231 /* FBLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481F528F28EE800E09231 /* FBLogo.swift */; };
+		00D481F828F28F9400E09231 /* FBDispenseControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481F728F28F9400E09231 /* FBDispenseControl.swift */; };
+		00D481FA28F2C25700E09231 /* FBStatusReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481F928F2C25700E09231 /* FBStatusReport.swift */; };
+		00D481FC28F2E1A100E09231 /* isActive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D481FB28F2E1A100E09231 /* isActive.swift */; };
 		00D5781928F13F230072B45A /* foodbowlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D5781828F13F230072B45A /* foodbowlApp.swift */; };
-		00D5781B28F13F230072B45A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D5781A28F13F230072B45A /* ContentView.swift */; };
+		00D5781B28F13F230072B45A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D5781A28F13F230072B45A /* OnboardingView.swift */; };
 		00D5781D28F13F250072B45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D5781C28F13F250072B45A /* Assets.xcassets */; };
 		00D5782028F13F250072B45A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D5781F28F13F250072B45A /* Preview Assets.xcassets */; };
+		00D5782C28F140D90072B45A /* Rajdhani-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00D5782728F140D70072B45A /* Rajdhani-Medium.ttf */; };
+		00D5782D28F140D90072B45A /* Rajdhani-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00D5782828F140D80072B45A /* Rajdhani-Bold.ttf */; };
+		00D5782E28F140D90072B45A /* Rajdhani-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00D5782928F140D80072B45A /* Rajdhani-Regular.ttf */; };
+		00D5782F28F140D90072B45A /* Rajdhani-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00D5782A28F140D80072B45A /* Rajdhani-Light.ttf */; };
+		00D5783028F140D90072B45A /* Rajdhani-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00D5782B28F140D90072B45A /* Rajdhani-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00440F0428F34B0C0000CF53 /* FBQuickControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBQuickControls.swift; sourceTree = "<group>"; };
+		0081AAE228F3544C0028A22E /* FBList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBList.swift; sourceTree = "<group>"; };
+		0081AAE428F36D510028A22E /* FBLEDColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLEDColorPicker.swift; sourceTree = "<group>"; };
+		0081AAE628F39E200028A22E /* FBSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBSettings.swift; sourceTree = "<group>"; };
+		009BFF6D28F2271F009786FC /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		00D481DB28F23F3D00E09231 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		00D481E228F250E100E09231 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		00D481E428F2512500E09231 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		00D481E628F2513900E09231 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		00D481E828F2549A00E09231 /* FBConnectionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBConnectionStatus.swift; sourceTree = "<group>"; };
+		00D481EB28F2643200E09231 /* FBRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBRequestHandler.swift; sourceTree = "<group>"; };
+		00D481ED28F272EE00E09231 /* Setting-ChangePetName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Setting-ChangePetName.swift"; sourceTree = "<group>"; };
+		00D481F128F28E7A00E09231 /* FBControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBControl.swift; sourceTree = "<group>"; };
+		00D481F328F28EA900E09231 /* FBLargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLargeButton.swift; sourceTree = "<group>"; };
+		00D481F528F28EE800E09231 /* FBLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLogo.swift; sourceTree = "<group>"; };
+		00D481F728F28F9400E09231 /* FBDispenseControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBDispenseControl.swift; sourceTree = "<group>"; };
+		00D481F928F2C25700E09231 /* FBStatusReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBStatusReport.swift; sourceTree = "<group>"; };
+		00D481FB28F2E1A100E09231 /* isActive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isActive.swift; sourceTree = "<group>"; };
 		00D5781528F13F230072B45A /* foodbowl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodbowl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D5781828F13F230072B45A /* foodbowlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodbowlApp.swift; sourceTree = "<group>"; };
-		00D5781A28F13F230072B45A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00D5781A28F13F230072B45A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		00D5781C28F13F250072B45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D5781F28F13F250072B45A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00D5782728F140D70072B45A /* Rajdhani-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Medium.ttf"; sourceTree = "<group>"; };
+		00D5782828F140D80072B45A /* Rajdhani-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Bold.ttf"; sourceTree = "<group>"; };
+		00D5782928F140D80072B45A /* Rajdhani-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Regular.ttf"; sourceTree = "<group>"; };
+		00D5782A28F140D80072B45A /* Rajdhani-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Light.ttf"; sourceTree = "<group>"; };
+		00D5782B28F140D90072B45A /* Rajdhani-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-SemiBold.ttf"; sourceTree = "<group>"; };
+		00D5783128F1412C0072B45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +79,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D481DD28F24D5F00E09231 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				00D5781A28F13F230072B45A /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		00D481DE28F24D6A00E09231 /* Contol */ = {
+			isa = PBXGroup;
+			children = (
+				00D481DB28F23F3D00E09231 /* ControlView.swift */,
+			);
+			path = Contol;
+			sourceTree = "<group>";
+		};
+		00D481DF28F24D7F00E09231 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				00D481E228F250E100E09231 /* Fonts.swift */,
+				00D481E628F2513900E09231 /* Colors.swift */,
+				00D481E428F2512500E09231 /* Constants.swift */,
+				00D481F028F28E5B00E09231 /* Components */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		00D481EA28F2641300E09231 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				00D481EB28F2643200E09231 /* FBRequestHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		00D481EF28F272F500E09231 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				00D481ED28F272EE00E09231 /* Setting-ChangePetName.swift */,
+				0081AAE628F39E200028A22E /* FBSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		00D481F028F28E5B00E09231 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				009BFF6D28F2271F009786FC /* CustomTextFieldStyle.swift */,
+				00D481F528F28EE800E09231 /* FBLogo.swift */,
+				00D481F328F28EA900E09231 /* FBLargeButton.swift */,
+				00D481F128F28E7A00E09231 /* FBControl.swift */,
+				00D481F728F28F9400E09231 /* FBDispenseControl.swift */,
+				00D481F928F2C25700E09231 /* FBStatusReport.swift */,
+				00D481FB28F2E1A100E09231 /* isActive.swift */,
+				00440F0428F34B0C0000CF53 /* FBQuickControls.swift */,
+				0081AAE228F3544C0028A22E /* FBList.swift */,
+				0081AAE428F36D510028A22E /* FBLEDColorPicker.swift */,
+				00D481E828F2549A00E09231 /* FBConnectionStatus.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		00D5780C28F13F230072B45A = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +160,15 @@
 		00D5781728F13F230072B45A /* foodbowl */ = {
 			isa = PBXGroup;
 			children = (
+				00D5783128F1412C0072B45A /* Info.plist */,
 				00D5781828F13F230072B45A /* foodbowlApp.swift */,
-				00D5781A28F13F230072B45A /* ContentView.swift */,
+				00D481EA28F2641300E09231 /* Network */,
+				00D481DE28F24D6A00E09231 /* Contol */,
+				00D481EF28F272F500E09231 /* Settings */,
+				00D481DD28F24D5F00E09231 /* Onboarding */,
+				00D481DF28F24D7F00E09231 /* Common */,
 				00D5781C28F13F250072B45A /* Assets.xcassets */,
+				00D5782628F1408C0072B45A /* Fonts */,
 				00D5781E28F13F250072B45A /* Preview Content */,
 			);
 			path = foodbowl;
@@ -65,6 +180,18 @@
 				00D5781F28F13F250072B45A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00D5782628F1408C0072B45A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				00D5782828F140D80072B45A /* Rajdhani-Bold.ttf */,
+				00D5782A28F140D80072B45A /* Rajdhani-Light.ttf */,
+				00D5782728F140D70072B45A /* Rajdhani-Medium.ttf */,
+				00D5782928F140D80072B45A /* Rajdhani-Regular.ttf */,
+				00D5782B28F140D90072B45A /* Rajdhani-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +252,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D5783028F140D90072B45A /* Rajdhani-SemiBold.ttf in Resources */,
+				00D5782D28F140D90072B45A /* Rajdhani-Bold.ttf in Resources */,
 				00D5782028F13F250072B45A /* Preview Assets.xcassets in Resources */,
+				00D5782F28F140D90072B45A /* Rajdhani-Light.ttf in Resources */,
 				00D5781D28F13F250072B45A /* Assets.xcassets in Resources */,
+				00D5782C28F140D90072B45A /* Rajdhani-Medium.ttf in Resources */,
+				00D5782E28F140D90072B45A /* Rajdhani-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +269,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D5781B28F13F230072B45A /* ContentView.swift in Sources */,
+				0081AAE728F39E200028A22E /* FBSettings.swift in Sources */,
+				00440F0528F34B0C0000CF53 /* FBQuickControls.swift in Sources */,
+				00D481F828F28F9400E09231 /* FBDispenseControl.swift in Sources */,
+				0081AAE328F3544C0028A22E /* FBList.swift in Sources */,
+				00D481FC28F2E1A100E09231 /* isActive.swift in Sources */,
+				00D481DC28F23F3D00E09231 /* ControlView.swift in Sources */,
+				00D481F428F28EA900E09231 /* FBLargeButton.swift in Sources */,
+				00D481F228F28E7A00E09231 /* FBControl.swift in Sources */,
+				00D481E328F250E100E09231 /* Fonts.swift in Sources */,
+				00D5781B28F13F230072B45A /* OnboardingView.swift in Sources */,
+				00D481E728F2513900E09231 /* Colors.swift in Sources */,
+				0081AAE528F36D510028A22E /* FBLEDColorPicker.swift in Sources */,
 				00D5781928F13F230072B45A /* foodbowlApp.swift in Sources */,
+				00D481EC28F2643200E09231 /* FBRequestHandler.swift in Sources */,
+				00D481FA28F2C25700E09231 /* FBStatusReport.swift in Sources */,
+				00D481EE28F272EE00E09231 /* Setting-ChangePetName.swift in Sources */,
+				00D481E928F2549A00E09231 /* FBConnectionStatus.swift in Sources */,
+				009BFF6E28F2271F009786FC /* CustomTextFieldStyle.swift in Sources */,
+				00D481E528F2512500E09231 /* Constants.swift in Sources */,
+				00D481F628F28EE800E09231 /* FBLogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,6 +420,7 @@
 				DEVELOPMENT_TEAM = 4M48D4QJHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = foodbowl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +450,7 @@
 				DEVELOPMENT_TEAM = 4M48D4QJHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = foodbowl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
